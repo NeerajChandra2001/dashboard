@@ -18,7 +18,7 @@ const Project = () => {
 
     return (
         <>
-            <div className=''>
+            <div className='  sticky top-0 z-50 bg-white'>
                 <Navbar />
             </div>
             <div id='' className='flex flex-col md:flex-row w-full'>

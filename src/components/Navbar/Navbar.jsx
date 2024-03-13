@@ -7,7 +7,7 @@ import avatart from '../../assets/dp1.jpg';
 
 const Navbar = () => {
     return (
-        <div className='w-full border-b-2  flex items-center justify-between s'>
+        <div className='w-full border-b-2  flex items-center justify-between '>
             <div>
                 <div className='nav-log flex items-center gap-5 '>
                     <h2 className="font-poppins text-2xl p-4 font-extrabold">
