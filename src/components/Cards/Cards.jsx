@@ -26,11 +26,11 @@ const Cards = () => {
           <div className='bg-[#e0e7ff] mt-3 md:mt-0 w-full md:w-[120px] flex items-center justify-center rounded-md '>
             <div className='flex'>
               <h3 className='font-semibold text-[#475569]'>14 <br />
-                <span className='font-normal text-[#575a5e]'>Tasks</span>
+                <span className='font-normal text-[#94a3b8]'>Tasks</span>
               </h3>
               <div className='pr-3 pl-3 text-[30px] text-[#575a5e]'>|</div>
               <h3 className='font-semibold text-[#475569]'>4 <br />
-                <span className='font-normal text-[#575a5e]'>Users</span>
+                <span className='font-normal text-[#94a3b8]'>Users</span>
               </h3>
             </div>
           </div>
@@ -58,7 +58,7 @@ const Cards = () => {
           <div className='pt-2'>
             <h3 className='text-[#475569] text-sm md:text-base flex justify-between pb-1'>Progress <span className='text-[#475569] text-sm md:text-base'>67%</span></h3>
             <div className="bg-gray-200 h-2 w-full rounded-full overflow-hidden ">
-              <div className="bg-blue-500 h-full" style={{ width: '67%' }}></div>
+              <div className="bg-indigo-600 h-full w-[67%]" ></div>
             </div>
           </div>
         </div>

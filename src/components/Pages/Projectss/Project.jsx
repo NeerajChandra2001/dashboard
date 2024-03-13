@@ -7,6 +7,7 @@ import { CiViewList } from "react-icons/ci";
 import { CgMenuGridO } from "react-icons/cg";
 import Cards from '../../Cards/Cards';
 import Modal from '../../Modal/Modal';
+import Navbar from '../../Navbar/Navbar';
 
 const Project = () => {
     const [showModal, setShowModal] = useState(false); // State to control modal visibility
@@ -17,9 +18,12 @@ const Project = () => {
 
     return (
         <>
-            <div className='flex flex-col md:flex-row w-full'>
+            <div className=''>
+                <Navbar />
+            </div>
+            <div id='' className='flex flex-col md:flex-row w-full'>
                 <div className='md:w-64'><SideNav /></div>
-                <div className='body w-auto'>
+                <div className='body w-au'>
                     <div className='head pl-3 pb-3 pt-5 text-[#475569] font-semibold flex flex-col md:flex-row items-center justify-between'>
                         <div>
                             <h2 className='text-xl'>Projects</h2>

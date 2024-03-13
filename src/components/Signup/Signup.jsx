@@ -1,23 +1,24 @@
 import React from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
-import bg from '../../assets/5235.jpg';
+// import bg from '../../assets/5235.jpg';
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
     return (
         <div className="flex flex-col md:flex-row">
-            <div className="w-full md:w-2/5">
+            <div className="w-full md:w-2/5 pl-1">
                 <div className="flex flex-col justify-center items-center min-h-screen py-12 px-4 sm:px-6 lg:px-8">
                     <div className="max-w-md w-full space-y-8">
                         <div>
                             <h2 className="font-poppins text-3xl font-extrabold">
                                 <span className='text-[#6366f1]'>Project</span>
                                 <span className='text-[#1e293b]'>Sync</span>
-                                <span className='text-[#22d3ee]'>.</span>
+                                <span className='text-[#38bdf8]'>.</span>
                             </h2>
                         </div>
                         <div>
                             <h2 className="mt-8 text-2xl font-extrabold text-[#475569]">Sign in to your Account</h2>
-                            <h5 className='font-bold text-gray-600 font-poppins'>New here ? <span className='text-[#22d3ee] font-poppins'>Create an Account</span></h5>
+                            <h5 className='font-bold text-gray-600 '>New here ? <span className='text-[#38bdf8] font-poppins'>Create an Account</span></h5>
                         </div>
                         <form className="mt-8 space-y-6">
                             <div>
@@ -38,7 +39,7 @@ const Signup = () => {
                             </div>
                             <div>
                                 <button type="submit" className="group relative flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 mt-6">
-                                    Sign in <IoIosArrowForward className="ml-2" size={20} />
+                                    <Link className='flex' to={"/home"}>Sign in <IoIosArrowForward className="ml-2" size={20} /></Link>
                                 </button>
                             </div>
                         </form>
@@ -46,7 +47,8 @@ const Signup = () => {
                 </div>
             </div>
             <div className="hidden md:block md:w-3/5 relative ">
-                <div className='h-full' style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className='h-full' style={{ backgroundImage: 'url("https://img.freepik.com/free-vector/coworking-concept-illustration_114360-5921.jpg?t=st=1710266868~exp=1710270468~hmac=ac450730ed24aea7a17e789290253d0a7c2bde7eace8b5982391253994fbe11a&w=740")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+
                     <div className='absolute inset-0 flex flex-col  pt-32 items-center'>
                         <div className=' '>
                             <h3 className="text-blck text-2xl font-bold text-[#6366f1] ">Seamless Collaboration</h3><br/>
