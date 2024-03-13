@@ -18,7 +18,7 @@ const SideNav = () => {
 
   return (
     <div className={`w-full md:w-64 ${showMenu ? 'md:w-64' : 'md:w-0'} flex flex-col pl-3 pr-2 pt-3`}>
-      <button className="md:hidden bg-gray-200 p-3" onClick={toggleMenu}>
+      <button className="md:hidden rounded-lg bg-[#e0e7ff] p-3" onClick={toggleMenu}>
         {showMenu ? <IoMdClose /> : <RiMenu2Fill />}
       </button>
       {showMenu && (

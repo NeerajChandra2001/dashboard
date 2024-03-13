@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Signup = () => {
     return (
         <div className="flex flex-col md:flex-row">
-            <div className="w-full md:w-2/5 pl-1">
+            <div className="w-full md:w-2/5 pl-1 ">
                 <div className="flex flex-col justify-center items-center min-h-screen py-12 px-4 sm:px-6 lg:px-8">
                     <div className="max-w-md w-full space-y-8">
                         <div>

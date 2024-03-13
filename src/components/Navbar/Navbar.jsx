@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className=' nav-items flex items-center gap-4 pr-4'>
                 {/* Conditionally render the search bar based on screen size */}
                 <div className='hidden md:block bg-gray-200  items-center rounded-lg pl-2'>
-                <div className='flex'>
+                <div className='flex items-center'>
                 <CiSearch size={20} className='text-[#475569]' />
                     <input
                         type="text"

@@ -20,8 +20,8 @@ const Modal2 = ({ showModal2, setShowModal2 }) => {
             </button> */}
             {showModal2 ? (
                 <>
-                    <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 ">
-                        <div className="  items-start justify-between w-[1200px] h-[600px] rounded-xl bg-white border-solid">
+                    <div className="justify-center items-center flex overflow-x-hidden lg:mx-40 overflow-y-auto fixed inset-0 z-50  ">
+                        <div className="   items-start justify-between w-full mx-10 h-auto rounded-xl bg-white border-solid">
                             <div className='header border-b-2 p-2 flex items-center justify-between'>
                                 <h1 className='font-bold pl-5 text-gray-600'>Add new project</h1>
                                 <div>
@@ -35,19 +35,17 @@ const Modal2 = ({ showModal2, setShowModal2 }) => {
                                 </div>
                             </div>
 
-                            <div className="grid grid-cols-5 grid-rows-1 gap-4 pl-2 items-center justify-center">
-                                <div className="col-span-2 pl-10">
+                            <div className="grid grid-cols-5 py-10  grid-rows-1 gap-4 pl-2 items-center justify-center">
+                                <div className="md:col-span-2  pl-10  xs:hidden md:block">
                                     <Timeline />
                                 </div>
-                                <div className="col-span-3 col-start-3">
+                                <div className="md:col-span-3 xs:col-span-5 col-start-3">
                                     <div className='form w-full p-2 space-y-3'>
-                                        <div className='pb-5 flex items-center justify-between'>
+                                        <div className='pb-5 xm:flex items-center justify-between gap-3'>
                                             <div>
                                                 <label className=' text-[#6c6e70]' htmlFor='project'>Work Order Number </label><br />
                                                 <input type='text' value='546434' className=' text-[#6c6e70] bg-[#edeaef] pl-2 rounded-lg h-9 w-[250px]' />
                                             </div>
-
-                                           
                                         </div>
 
                                         <div className='flex space-x-10'>
